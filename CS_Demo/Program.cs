@@ -10,6 +10,13 @@ namespace CS_Demo
     {
         static void Main(string[] args)
         {
+            Print();
+        }
+
+        public static void Print()
+        {
+            Console.WriteLine("Aleksandar");
+            Console.ReadKey();
         }
     }
 }
